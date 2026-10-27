@@ -25,7 +25,7 @@ mostly a pointer/landing area and contains older or reference builds.
 
 Most tools also ship a compiled `.exe` next to the `.ahk`/`.au3` source, built with
 the AutoHotkey/AutoIt compiler — you can run the `.exe` directly without installing
-AutoHotkey/AutoIt, or run the source file if you have the interpreter installed and
+autoHotkey/AutoIt, or run the source file if you have the interpreter installed and
 want to see/edit what it does.
 
 **Antivirus note:** AutoHotkey/AutoIt scripts and their compiled `.exe`s get flagged
@@ -132,6 +132,15 @@ state before relying on it.
 Not included in this archive — tracked separately. It's an AHK v2 GUI
 (`voice_coder.ahk`) driving an offline `faster-whisper` Python worker for
 English/Hungarian speech-to-code dictation with an F5 toggle.
+
+### OBS Handcam Filter — webcam/filter utility
+**Repository:** https://github.com/onehandmade/OBS-Handcam-Filter
+**Languages:** GLSL + HTML
+
+A separate OBS-oriented webcam/filter project for use alongside the accessibility
+utility collection. It is built around GLSL shader work and a lightweight HTML-based
+interface layer, and is being kept as its own project while it is folded into the
+main repository set.
 
 ---
 
